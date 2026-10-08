@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Local Vendor Registration | Community Stake Foundation</title>
+<meta name="description" content="Sint Maarten construction trades, real estate services and property maintenance businesses can register for the Community Stake Foundation local vendor list.">
+<meta name="theme-color" content="#0c2a35">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script>
+(function () {
+  var d = document.documentElement; d.className = d.className.replace('no-js', 'js');
+  document.addEventListener('DOMContentLoaded', function () {
+    var b = document.querySelector('.nav-toggle'), n = document.getElementById('site-nav');
+    if (!b || !n) return;
+    b.addEventListener('click', function () {
+      var open = n.classList.toggle('open');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+})();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Community Stake Foundation, home">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#0f4f5a"/><path d="M14 31 L32 16 L50 31" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 26 V42" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round"/><path d="M12 49 q5 -4 10 0 t10 0 t10 0 t10 0" fill="none" stroke="#8fc3c4" stroke-width="3.5" stroke-linecap="round"/></svg>
+      <span class="brand-name">Community Stake Foundation<small>Sint Maarten</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html" aria-current="page">Local Vendors</a></li><li><a href="proposals.html">Project Proposals</a></li><li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Local Vendors</p>
+    <h1>Local vendor registration</h1>
+    <p class="lead">We are building a list of Sint Maarten businesses we can call on for our projects.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap narrow">
+    <div class="form-intro">
+      <p>We are especially interested in:</p>
+      <ul class="ticks">
+        <li><strong>Construction trades:</strong> general contracting, masonry, carpentry, electrical, plumbing, roofing, and similar trades</li>
+        <li><strong>Real estate services:</strong> agents, surveyors, appraisers, legal, notarial, and similar services</li>
+        <li><strong>Property maintenance and repair:</strong> for buildings once they are complete</li>
+      </ul>
+      <p>Registration is free and takes about ten minutes. Tell us about your business, the work you do and some recent projects. We&rsquo;ll keep your details on file and get in touch when a suitable opportunity comes up.</p>
+      <div class="note"><p>Registration does not guarantee work. Selection is at CSF&rsquo;s discretion.</p></div>
+    </div>
+    <form class="csf-form" action="https://formspree.io/f/VENDOR_FORM_ID" method="POST" accept-charset="UTF-8" data-csf-form data-thanks="thank-you.html?form=vendor">
+  <!-- TODO: replace VENDOR_FORM_ID in the action URL with the real Formspree form ID. -->
+  <input type="hidden" name="_subject" value="New local vendor registration (CSF website)">
+  <!-- _next: Formspree only honours this on paid plans and it must be the FULL URL once live,
+       e.g. https://YOUR-DOMAIN/thank-you.html?form=vendor. On the free plan the script at the
+       bottom of this page submits via AJAX and redirects to thank-you.html itself. -->
+  <input type="hidden" name="_next" value="thank-you.html?form=vendor">
+  <!-- Honeypot: real visitors never see or fill this; bots that do are discarded by Formspree. -->
+  <div class="hp" aria-hidden="true"><label for="_gotcha">Leave this field empty</label><input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+  <p class="required-key"><span class="req">*</span> Required</p>
+  <fieldset>
+    <legend>A. Your business</legend>
+    <div class="field">
+  <label for="v-business">Business name<span class="req" aria-hidden="true">*</span></label>
+  <input type="text" id="v-business" name="Business name" required autocomplete="organization">
+</div>
+    <div class="field">
+  <label for="v-trading">Trading name, if different</label>
+  <input type="text" id="v-trading" name="Trading name">
+</div>
+    <div class="field">
+  <label for="v-coc">Chamber of Commerce registration number<span class="req" aria-hidden="true">*</span></label>
+  <span class="help" id="v-coc-help">Sint Maarten Chamber of Commerce number. If you are not registered, write &ldquo;not registered&rdquo; and explain under &ldquo;Additional information&rdquo; below.</span><input type="text" id="v-coc" name="Chamber of Commerce number" required aria-describedby="v-coc-help">
+</div>
+    <div class="field">
+  <label for="v-address">Business address on Sint Maarten<span class="req" aria-hidden="true">*</span></label>
+  <input type="text" id="v-address" name="Business address on Sint Maarten" required autocomplete="street-address">
+</div>
+    <div class="field">
+  <label for="v-web">Website or social media page</label>
+  <span class="help" id="v-web-help">Please include https://</span><input type="url" id="v-web" name="Website or social media" aria-describedby="v-web-help" placeholder="https://">
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>B. Contact person</legend>
+    <div class="field">
+  <label for="v-name">Contact name<span class="req" aria-hidden="true">*</span></label>
+  <input type="text" id="v-name" name="Contact name" required autocomplete="name">
+</div>
+    <div class="field">
+  <label for="v-role">Role or title</label>
+  <input type="text" id="v-role" name="Role or title">
+</div>
+    <div class="field">
+  <label for="v-email">Email<span class="req" aria-hidden="true">*</span></label>
+  <input type="email" id="v-email" name="email" required autocomplete="email">
+</div>
+    <div class="field">
+  <label for="v-phone">Phone<span class="req" aria-hidden="true">*</span></label>
+  <input type="tel" id="v-phone" name="Phone" required autocomplete="tel">
+</div>
+    <div class="field" role="radiogroup" aria-labelledby="v-pref-label">
+  <span class="label" id="v-pref-label">Preferred contact method</span>
+  <div class="choices inline"><label class="choice"><input type="radio" name="Preferred contact method" value="Email"> Email</label><label class="choice"><input type="radio" name="Preferred contact method" value="Phone"> Phone</label><label class="choice"><input type="radio" name="Preferred contact method" value="WhatsApp"> WhatsApp</label></div>
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>C. Ownership and residency</legend>
+    <div class="field" role="radiogroup" aria-labelledby="v-owned-label">
+  <span class="label" id="v-owned-label">Is the business majority-owned by Sint Maarten residents?<span class="req" aria-hidden="true">*</span></span>
+  <div class="choices inline"><label class="choice"><input type="radio" name="Majority-owned by Sint Maarten residents" value="Yes" required> Yes</label><label class="choice"><input type="radio" name="Majority-owned by Sint Maarten residents" value="No"> No</label><label class="choice"><input type="radio" name="Majority-owned by Sint Maarten residents" value="Partly"> Partly</label></div>
+</div>
+    <div class="field" role="radiogroup" aria-labelledby="v-years-island-label">
+  <span class="label" id="v-years-island-label">How long have the owner(s) lived on Sint Maarten?<span class="req" aria-hidden="true">*</span></span>
+  <div class="choices inline"><label class="choice"><input type="radio" name="Years owner(s) have lived on Sint Maarten" value="Less than 2 years" required> Less than 2 years</label><label class="choice"><input type="radio" name="Years owner(s) have lived on Sint Maarten" value="2–5 years"> 2–5 years</label><label class="choice"><input type="radio" name="Years owner(s) have lived on Sint Maarten" value="5–10 years"> 5–10 years</label><label class="choice"><input type="radio" name="Years owner(s) have lived on Sint Maarten" value="More than 10 years"> More than 10 years</label></div>
+</div>
+    <div class="field">
+  <label for="v-ownership">Ownership details (optional)</label>
+  <span class="help" id="v-ownership-help">For example, owner-operated, family business or partnership.</span><textarea id="v-ownership" name="Ownership details" rows="3" aria-describedby="v-ownership-help"></textarea>
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>D. Trades and services</legend>
+    <div class="field" data-required-group role="group" aria-labelledby="v-trades-label">
+  <span class="label" id="v-trades-label">Which trades or services do you offer?<span class="req" aria-hidden="true">*</span></span>
+  <span class="help">Select all that apply.</span><p class="group-title">Construction</p><div class="choices"><label class="choice"><input type="checkbox" name="Trades and services" value="General contracting"> General contracting</label><label class="choice"><input type="checkbox" name="Trades and services" value="Site preparation / excavation"> Site preparation / excavation</label><label class="choice"><input type="checkbox" name="Trades and services" value="Masonry / concrete / block work"> Masonry / concrete / block work</label><label class="choice"><input type="checkbox" name="Trades and services" value="Carpentry / framing"> Carpentry / framing</label><label class="choice"><input type="checkbox" name="Trades and services" value="Roofing"> Roofing</label><label class="choice"><input type="checkbox" name="Trades and services" value="Electrical"> Electrical</label><label class="choice"><input type="checkbox" name="Trades and services" value="Plumbing"> Plumbing</label><label class="choice"><input type="checkbox" name="Trades and services" value="HVAC / air conditioning"> HVAC / air conditioning</label><label class="choice"><input type="checkbox" name="Trades and services" value="Painting / finishing"> Painting / finishing</label><label class="choice"><input type="checkbox" name="Trades and services" value="Tiling / flooring"> Tiling / flooring</label><label class="choice"><input type="checkbox" name="Trades and services" value="Windows / doors / hurricane shutters"> Windows / doors / hurricane shutters</label><label class="choice"><input type="checkbox" name="Trades and services" value="Landscaping"> Landscaping</label><label class="choice"><input type="checkbox" name="Trades and services" value="Building supplies"> Building supplies</label></div><p class="group-title">Real estate services</p><div class="choices"><label class="choice"><input type="checkbox" name="Trades and services" value="Real estate agent / broker"> Real estate agent / broker</label><label class="choice"><input type="checkbox" name="Trades and services" value="Land surveyor"> Land surveyor</label><label class="choice"><input type="checkbox" name="Trades and services" value="Appraiser / valuer"> Appraiser / valuer</label><label class="choice"><input type="checkbox" name="Trades and services" value="Architect / engineer / draftsperson"> Architect / engineer / draftsperson</label><label class="choice"><input type="checkbox" name="Trades and services" value="Legal services"> Legal services</label><label class="choice"><input type="checkbox" name="Trades and services" value="Notarial services"> Notarial services</label><label class="choice"><input type="checkbox" name="Trades and services" value="Accounting / bookkeeping"> Accounting / bookkeeping</label><label class="choice"><input type="checkbox" name="Trades and services" value="Property management"> Property management</label><label class="choice"><input type="checkbox" name="Trades and services" value="Insurance"> Insurance</label></div><p class="group-title">Maintenance and repair</p><div class="choices"><label class="choice"><input type="checkbox" name="Trades and services" value="General maintenance / handyman"> General maintenance / handyman</label><label class="choice"><input type="checkbox" name="Trades and services" value="Cleaning"> Cleaning</label><label class="choice"><input type="checkbox" name="Trades and services" value="Pool / garden care"> Pool / garden care</label><label class="choice"><input type="checkbox" name="Trades and services" value="Security"> Security</label><label class="choice"><input type="checkbox" name="Trades and services" value="Pest control"> Pest control</label></div><p class="group-title">Other</p><div class="choices"><label class="choice"><input type="checkbox" name="Trades and services" value="Other (please describe below)"> Other (please describe below)</label></div>
+</div>
+    <div class="field">
+  <label for="v-services">Briefly describe your main services<span class="req" aria-hidden="true">*</span></label>
+  <textarea id="v-services" name="Main services" rows="4" required></textarea>
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>E. Experience and capacity</legend>
+    <div class="field" role="radiogroup" aria-labelledby="v-years-label">
+  <span class="label" id="v-years-label">Years in business<span class="req" aria-hidden="true">*</span></span>
+  <div class="choices inline"><label class="choice"><input type="radio" name="Years in business" value="Less than 1" required> Less than 1</label><label class="choice"><input type="radio" name="Years in business" value="1–3"> 1–3</label><label class="choice"><input type="radio" name="Years in business" value="3–5"> 3–5</label><label class="choice"><input type="radio" name="Years in business" value="5–10"> 5–10</label><label class="choice"><input type="radio" name="Years in business" value="More than 10"> More than 10</label></div>
+</div>
+    <div class="field">
+  <label for="v-emp-local">Number of employees who live on Sint Maarten<span class="req" aria-hidden="true">*</span></label>
+  <input type="number" id="v-emp-local" name="Employees who live on Sint Maarten" required min="0" step="1" inputmode="numeric">
+</div>
+    <div class="field">
+  <label for="v-emp-total">Total number of employees</label>
+  <input type="number" id="v-emp-total" name="Total employees" min="0" step="1" inputmode="numeric">
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>F. Licences and insurance</legend>
+    <div class="field">
+  <label for="v-licences">Licences or permits you hold<span class="req" aria-hidden="true">*</span></label>
+  <span class="help" id="v-licences-help">For example, a business licence or a trade or professional licence. Write &ldquo;none&rdquo; if none apply.</span><textarea id="v-licences" name="Licences or permits" rows="3" required aria-describedby="v-licences-help"></textarea>
+</div>
+    <div class="field" role="radiogroup" aria-labelledby="v-insured-label">
+  <span class="label" id="v-insured-label">Do you carry business insurance?<span class="req" aria-hidden="true">*</span></span>
+  <div class="choices inline"><label class="choice"><input type="radio" name="Carries business insurance" value="Yes" required> Yes</label><label class="choice"><input type="radio" name="Carries business insurance" value="No"> No</label><label class="choice"><input type="radio" name="Carries business insurance" value="In progress"> In progress</label></div>
+</div>
+    <div class="field" role="group" aria-labelledby="v-cover-label">
+  <span class="label" id="v-cover-label">Type of insurance cover</span>
+  <div class="choices"><label class="choice"><input type="checkbox" name="Type of insurance cover" value="General liability"> General liability</label><label class="choice"><input type="checkbox" name="Type of insurance cover" value="Workers’ or employer’s liability"> Workers’ or employer’s liability</label><label class="choice"><input type="checkbox" name="Type of insurance cover" value="Professional liability"> Professional liability</label><label class="choice"><input type="checkbox" name="Type of insurance cover" value="Other"> Other</label><label class="choice"><input type="checkbox" name="Type of insurance cover" value="Not sure"> Not sure</label></div>
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>G. References and past work</legend>
+    <p class="help" style="margin:0 0 1rem">Please list two or three references or past projects. At least two are required.</p>
+    <div class="subblock">
+  <h3>Reference or past project 1 (required)</h3>
+  <div class="field">
+  <label for="ref1-name">Project or client name<span class="req" aria-hidden="true">*</span></label>
+  <input type="text" id="ref1-name" name="Reference 1 - project or client name" required>
+</div>
+  <div class="field">
+  <label for="ref1-desc">Short description of the work and year<span class="req" aria-hidden="true">*</span></label>
+  <textarea id="ref1-desc" name="Reference 1 - work and year" rows="3" required></textarea>
+</div>
+  <div class="field">
+  <label for="ref1-contact">Reference contact name and phone or email (optional)</label>
+  <input type="text" id="ref1-contact" name="Reference 1 - contact">
+</div>
+</div>
+    <div class="subblock">
+  <h3>Reference or past project 2 (required)</h3>
+  <div class="field">
+  <label for="ref2-name">Project or client name<span class="req" aria-hidden="true">*</span></label>
+  <input type="text" id="ref2-name" name="Reference 2 - project or client name" required>
+</div>
+  <div class="field">
+  <label for="ref2-desc">Short description of the work and year<span class="req" aria-hidden="true">*</span></label>
+  <textarea id="ref2-desc" name="Reference 2 - work and year" rows="3" required></textarea>
+</div>
+  <div class="field">
+  <label for="ref2-contact">Reference contact name and phone or email (optional)</label>
+  <input type="text" id="ref2-contact" name="Reference 2 - contact">
+</div>
+</div>
+    <div class="subblock">
+  <h3>Reference or past project 3 (optional)</h3>
+  <div class="field">
+  <label for="ref3-name">Project or client name</label>
+  <input type="text" id="ref3-name" name="Reference 3 - project or client name">
+</div>
+  <div class="field">
+  <label for="ref3-desc">Short description of the work and year</label>
+  <textarea id="ref3-desc" name="Reference 3 - work and year" rows="3"></textarea>
+</div>
+  <div class="field">
+  <label for="ref3-contact">Reference contact name and phone or email (optional)</label>
+  <input type="text" id="ref3-contact" name="Reference 3 - contact">
+</div>
+</div>
+  </fieldset>
+
+  <fieldset>
+    <legend>H. Anything else</legend>
+    <div class="field">
+  <label for="v-additional">Additional information</label>
+  <textarea id="v-additional" name="Additional information" rows="4"></textarea>
+</div>
+    <div class="field">
+  <label for="v-docs">Link to documents or portfolio (optional)</label>
+  <span class="help" id="v-docs-help">A link to a company profile, photos, licences or insurance certificates, for example on Google Drive or Dropbox. Please don&rsquo;t share sensitive personal documents.</span><input type="url" id="v-docs" name="Link to documents or portfolio" aria-describedby="v-docs-help" placeholder="https://">
+</div>
+    <div class="field">
+  <label for="v-heard">How did you hear about CSF?</label>
+  <input type="text" id="v-heard" name="How did you hear about CSF">
+</div>
+  </fieldset>
+
+  <fieldset class="consent">
+    <legend>Consent<span class="req" aria-hidden="true">*</span></legend>
+    <label class="choice"><input type="checkbox" name="Consent" value="Confirmed" required> I confirm that the information in this form is accurate to the best of my knowledge. I agree that CSF may store it and contact me about possible work. I understand that registration does not guarantee work and that selection is at CSF&rsquo;s discretion.</label>
+  </fieldset>
+
+  <p class="disclaimer">Registration does not guarantee work with CSF or its project partners. Vendors are selected at CSF&rsquo;s discretion, based on each project&rsquo;s needs.</p>
+  <div class="form-foot">
+    <button class="btn btn-teal" type="submit">Submit registration</button>
+    <p class="form-status" role="status" aria-live="polite"></p>
+  </div>
+</form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="index.html" aria-label="Community Stake Foundation, home">
+        <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#0f4f5a"/><path d="M14 31 L32 16 L50 31" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 26 V42" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round"/><path d="M12 49 q5 -4 10 0 t10 0 t10 0 t10 0" fill="none" stroke="#8fc3c4" stroke-width="3.5" stroke-linecap="round"/></svg>
+        <span class="brand-name">Community Stake Foundation<small>Sint Maarten</small></span>
+      </a>
+      <ul class="footer-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html">Local Vendors</a></li><li><a href="proposals.html">Project Proposals</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </div>
+    <p class="legal">&copy; 2026 Community Stake Foundation<span class="sep">&middot;</span>Community Stake Private Fund Foundation (stichting particulier fonds), Sint Maarten<span class="sep">&middot;</span>Chamber of Commerce no. 32712<span class="sep">&middot;</span><span class="placeholder-email">[CSF email]</span><!-- TODO: replace [CSF email] with the foundation's public email address --><span class="sep">&middot;</span><a href="contact.html#privacy">Privacy</a></p>
+  </div>
+</footer>
+<script>
+/* Form helpers: (1) require at least one box in required checkbox groups;
+   (2) submit to Formspree via AJAX (works on the free plan) and redirect to thank-you.html.
+   Without JavaScript the form still posts normally to Formspree. */
+(function () {
+  var form = document.querySelector('form[data-csf-form]');
+  if (!form) return;
+  var status = form.querySelector('.form-status');
+  var btn = form.querySelector('button[type="submit"]');
+  var groups = form.querySelectorAll('[data-required-group]');
+
+  function checkGroups() {
+    for (var i = 0; i < groups.length; i++) {
+      var boxes = groups[i].querySelectorAll('input[type="checkbox"]');
+      var any = false;
+      for (var j = 0; j < boxes.length; j++) { if (boxes[j].checked) { any = true; break; } }
+      boxes[0].setCustomValidity(any ? '' : 'Please select at least one option.');
+    }
+  }
+  for (var g = 0; g < groups.length; g++) groups[g].addEventListener('change', checkGroups);
+  checkGroups();
+
+  function say(msg, isError) {
+    status.textContent = msg;
+    status.className = 'form-status' + (isError ? ' error' : '');
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    checkGroups();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    if (form.action.indexOf('_FORM_ID') !== -1) {
+      say('This form is not connected yet. Please check back soon.', true);
+      return;
+    }
+    var data = {};
+    new FormData(form).forEach(function (v, k) {
+      if (Object.prototype.hasOwnProperty.call(data, k)) { data[k] += ', ' + v; } else { data[k] = v; }
+    });
+    btn.disabled = true;
+    say('Sending...', false);
+    fetch(form.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    }).then(function (r) {
+      if (r.ok) { window.location.href = form.getAttribute('data-thanks'); return; }
+      throw new Error('Submission failed');
+    }).catch(function () {
+      btn.disabled = false;
+      say('Sorry, your submission did not go through. Please try again in a few minutes.', true);
+    });
+  });
+})();
+</script>
+</body>
+</html>
