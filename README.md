@@ -22,7 +22,7 @@ All links are relative, so the site works unchanged at a `github.io` address or 
 
 ## Before going live
 
-1. **Form endpoints.** In `vendors.html` and `proposals.html`, replace `VENDOR_FORM_ID` and `PROPOSAL_FORM_ID` in the form `action` URLs with the real Formspree form IDs.
+1. **Form endpoints.** In `vendors.html` and `proposals.html`, replace `xdeagdqz` and `mqpeqlrd` in the form `action` URLs with the real Formspree form IDs.
 2. **Email placeholder.** Replace every `[CSF email]` with the public contact address (footer on every page, plus `contact.html`).
 3. **Redirect after submit.** The forms submit via JavaScript (AJAX) and then open `thank-you.html`, which works on the Formspree free plan. The hidden `_next` field is only used on paid Formspree plans and must then hold the full URL, for example `https://example.org/thank-you.html?form=vendor`.
 4. **Formspree settings.** Restrict each form to the site's domain, and keep the `_gotcha` honeypot field.
