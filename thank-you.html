@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Thank You | Community Stake Foundation</title>
 <meta name="description" content="Thank you for your submission to Community Stake Foundation.">
-<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#0c2a35">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
@@ -34,7 +34,7 @@
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <nav class="site-nav" id="site-nav" aria-label="Main">
       <ul>
-        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html">Local Vendors</a></li><li><a href="proposals.html">Project Proposals</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html">Local Vendors</a></li><li><a href="proposals.html">Project Financing</a></li><li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -61,16 +61,16 @@
         <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="14" fill="#0f4f5a"/><path d="M14 31 L32 16 L50 31" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 26 V42" fill="none" stroke="#e3c48f" stroke-width="5" stroke-linecap="round"/><path d="M12 49 q5 -4 10 0 t10 0 t10 0 t10 0" fill="none" stroke="#8fc3c4" stroke-width="3.5" stroke-linecap="round"/></svg>
         <span class="brand-name">Community Stake Foundation<small>Sint Maarten</small></span>
       </a>
-      <ul class="footer-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html">Local Vendors</a></li><li><a href="proposals.html">Project Proposals</a></li><li><a href="contact.html">Contact</a></li></ul>
+      <ul class="footer-nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="how-we-work.html">How We Work</a></li><li><a href="vendors.html">Local Vendors</a></li><li><a href="proposals.html">Project Financing</a></li><li><a href="contact.html">Contact</a></li></ul>
     </div>
     <p class="legal">&copy; 2026 Community Stake Foundation<span class="sep">&middot;</span>Community Stake Private Fund Foundation (stichting particulier fonds), Sint Maarten<span class="sep">&middot;</span>Chamber of Commerce no. 32712<span class="sep">&middot;</span><span class="placeholder-email">[CSF email]</span><!-- TODO: replace [CSF email] with the foundation's public email address --><span class="sep">&middot;</span><a href="contact.html#privacy">Privacy</a></p>
   </div>
 </footer>
 <script>
 (function () {
-  var m = { vendor: 'Thank you. We\u2019ve received your registration and added it to our local vendor list. We\u2019ll be in touch when a suitable opportunity comes up.',
-            proposal: 'Thank you for your proposal. We\u2019ll review it, and if there is a fit, we\u2019ll follow up with you.' };
-  var k = (location.search.match(/[?&]form=(vendor|proposal)/) || [])[1];
+  var m = { vendor: 'Thank you. We\u2019ve received your registration and added it to our local vendor list. We\u2019ll be in touch if a suitable opportunity comes up.',
+            financing: 'Thank you for your financing request. We\u2019ll review it, and if there is a fit, we\u2019ll follow up with you.' };
+  var k = (location.search.match(/[?&]form=(vendor|financing)/) || [])[1];
   if (k) document.getElementById('thanks-msg').textContent = m[k];
 })();
 </script>

@@ -10,7 +10,7 @@ Static website for Community Stake Foundation, Sint Maarten. Plain HTML and CSS 
 | `about.html` | About / Our purpose |
 | `how-we-work.html` | How we work |
 | `vendors.html` | Local vendor registration form |
-| `proposals.html` | Project proposal form |
+| `proposals.html` | Project financing request form |
 | `contact.html` | Contact details and privacy note (`contact.html#privacy`) |
 | `thank-you.html` | Confirmation page after a form is sent |
 | `404.html` | Page-not-found page (GitHub Pages serves it automatically) |
