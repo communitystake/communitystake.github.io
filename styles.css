@@ -65,7 +65,7 @@ p { margin: 0 0 1em; }
 .hero { background: linear-gradient(135deg, var(--navy) 0%, var(--teal) 70%, var(--teal-2) 100%); color: #f3efe6; position: relative; overflow: hidden; }
 .hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: var(--sand); }
 .hero .wrap { padding-top: clamp(3rem, 8vw, 6rem); padding-bottom: clamp(3rem, 8vw, 5.5rem); position: relative; z-index: 1; }
-.hero h1 { color: #fff; max-width: 16ch; }
+.hero h1 { color: #fff; max-width: 22ch; font-size: clamp(1.7rem, 3.8vw, 2.55rem); }
 .hero p { max-width: 60ch; font-size: 1.125rem; color: #e4ece9; }
 .hero .eyebrow { color: var(--sand); }
 .hero-mark { position: absolute; right: -40px; bottom: -30px; width: 380px; height: 380px; opacity: .08; z-index: 0; pointer-events: none; }
